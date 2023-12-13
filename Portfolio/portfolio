@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravana - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .skills ul,
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Saravana</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="pp - Copy.jpg" width="200px" height="200px" alt="Your Name">
+        <p>Hello, I'm Saravana, a passionate web developer based in Chennai. With a strong foundation 
+            in HTML, CSS, and JavaScript, I specialize in creating interactive and user-friendly websites. 
+            My journey in web development began in my college. I have a keen eye for design and enjoy 
+            turning complex problems into simple, beautiful,  and intuitive solutions. Whether it's
+            crafting responsive layouts, implementing dynamic  features, or optimizing for performance,
+            I love the challenge of building websites that not only meet but exceed client expectations.
+            My skills extend beyond the front-end, as I also have experience with  front-end frameworks 
+            like React, back-end technologies like Node.js, etc</p>
+        </section>
+        </p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <p>Attendance system</p>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <p>QR Scanner</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="SRV RESUME.pdf" target="_blank">Download Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: saravana.email@example.com</p>
+        <p>Phone: 9965522733</p>
+    </section>
+
+    <footer>
+        <p>&copy;  All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
